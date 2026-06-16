@@ -1,0 +1,91 @@
+body {
+    width: 80%;
+    margin: 0 auto;
+}
+
+nav {
+    justify-self: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    gap: 20px;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+nav p {
+    font-size: 18px;
+    font-weight: bold;
+    justify-self: center;
+}
+
+nav .add {
+    font-size: 14px;
+    font-weight: normal;
+    justify-self: center;
+}
+nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    justify-self: center;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.components {
+    display: block;
+    text-decoration: none;
+    color: black;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+.components:hover {
+    transform: scale(1.03);
+    transition: 0.3s;
+    border-color: black;
+}
+
+.components img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.components .products {
+    margin: 10px 0;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 40px 0 20px;
+}
+.footer-content {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+}
+
+.footer-content p {
+    margin: 8px 0;
+    font-size: 16px;
+    color: #555;
+}
